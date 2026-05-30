@@ -16,66 +16,28 @@ A custom modpack built on Chosen's Create Integrated, extended with Cobblemon, P
 
 ---
 
-## Installing — Prism Launcher (recommended)
+## Installing
 
-Prism is free, open source, and handles everything automatically.
+### Step 1 — Download the CurseForge App
 
-**1. Download Prism Launcher**
-https://prismlauncher.org/download/
-
-**2. Sign in with your Microsoft account**
-Open Prism → click your profile icon (top right) → sign in.
-
-**3. Add the modpack instance**
-- Click **Add Instance** (top left)
-- Select **Import** from the left sidebar
-- Paste this URL into the text box:
-  ```
-  https://raw.githubusercontent.com/nathansbradshaw/lamecraft-modded/main/pack.toml
-  ```
-- Click **OK** — Prism downloads all mods automatically
-
-**4. Launch and join**
-- Select the CreateCraft instance and click **Launch**
-- Once in the main menu, click **Multiplayer** and connect to:
-  ```
-  YOUR_SERVER_IP:25565
-  ```
-
-**Updating:** When the pack gets updated, right-click the instance → **Edit** → **Check for Updates**. Prism handles the rest.
-
----
-
-## Installing — CurseForge App
-
-**1. Download and install the CurseForge App**
 https://www.curseforge.com/download/app
 
-**2. Install the base pack**
-- Open the app and select **Minecraft**
-- Click **Browse Modpacks** and search for **Chosen's Create Integrated**
-- Click **Install** and wait for it to finish
+### Step 2 — Download the latest pack zip
 
-**3. Add the extra mods**
+Go to the [Releases page](../../releases/latest) and download the `createcraft-*.zip` file.
 
-Once installed, open the pack's folder by clicking the three-dot menu → **Open Folder**, then navigate to the `mods/` subfolder. Download each of the following and drop them in:
+### Step 3 — Import into CurseForge
 
-| Mod | Download |
-|---|---|
-| Cobblemon (NeoForge 1.21.1) | https://www.curseforge.com/minecraft/mc-mods/cobblemon |
-| Kotlin for Forge | https://www.curseforge.com/minecraft/mc-mods/kotlin-for-forge |
-| Cobblemon Manufactory | https://www.curseforge.com/minecraft/mc-mods/cobblemon-manufactory |
-| Cobblemon Ultra Wormholes | https://www.curseforge.com/minecraft/mc-mods/cobblemon-ultra-wormholes |
-| Wild Battle API | https://modrinth.com/mod/wild-battle-api |
-| Bosses of Mass Destruction | https://www.curseforge.com/minecraft/mc-mods/bosses-of-mass-destruction-forge |
-| GeckoLib | https://www.curseforge.com/minecraft/mc-mods/geckolib |
-| CERBON's API | https://www.curseforge.com/minecraft/mc-mods/cerbons-api |
+1. Open the CurseForge app and select **Minecraft**
+2. Click **Create Custom Profile** (top right)
+3. Click **Import** at the bottom of the dialog
+4. Select the `createcraft-*.zip` you just downloaded
+5. Hit **Create** and wait for it to install
 
-> Make sure you download the **NeoForge 1.21.1** build of each mod from the **Files** tab on each page.
+### Step 4 — Launch and connect
 
-**4. Launch and join**
-- Back in the CurseForge app, click **Play** on the Chosen's Create Integrated profile
-- Click **Multiplayer** and connect to:
+- Click **Play** on the CreateCraft profile
+- In-game, go to **Multiplayer** and connect to:
   ```
   YOUR_SERVER_IP:25565
   ```
@@ -90,25 +52,29 @@ Once installed, open the pack's folder by clicking the three-dot menu → **Open
 | Java | 21 | 21 |
 | Disk space | 2 GB | 3 GB |
 
-**Setting RAM in Prism:** Right-click instance → Edit → Settings → Java → set minimum and maximum memory.
+**Setting RAM:** In the CurseForge app, click the three-dot menu on the profile → **Profile Options** → enable custom Java settings → set memory to at least 6144 MB.
 
-**Setting RAM in CurseForge:** Click the profile's three-dot menu → Profile Options → enable custom Java settings → set memory.
+---
+
+## Updating
+
+When the pack is updated, download the new zip from the [Releases page](../../releases/latest) and re-import it the same way. Your worlds and settings are kept separately and won't be affected.
 
 ---
 
 ## Troubleshooting
 
 **Game crashes on launch**
-Make sure all extra mods are the NeoForge 1.21.1 build. Fabric builds will crash immediately.
+Make sure you imported the zip correctly and didn't mix up any mods. Try deleting the profile and re-importing from scratch.
 
 **"Missing mods" error on server join**
-You're missing one or more of the extra mods listed above. Double-check every JAR is in your `mods/` folder.
+Your client mods don't match the server. Re-download the latest zip from the Releases page and re-import.
 
 **Low FPS / stuttering**
 Allocate more RAM (8 GB recommended). Create and Cobblemon together are demanding — don't go below 6 GB.
 
 **Can't connect to the server**
-Confirm you're using the correct server IP. Make sure you've launched the modpack profile, not vanilla Minecraft.
+Make sure you launched the CreateCraft profile, not vanilla Minecraft, and that you have the correct server IP.
 
 ---
 
