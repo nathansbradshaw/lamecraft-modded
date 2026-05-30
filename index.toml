@@ -12649,6 +12649,11 @@ hash = "804736be3ded2a6f89f44522b88d82636209ed203c234ea34b6d6ffdd9ecee54"
 metafile = true
 
 [[files]]
+file = "mods/ready-player-fun.pw.toml"
+hash = "7913508fee049340d77039a85c84851d9079fac630400215fd6e878dbe181fbc"
+metafile = true
+
+[[files]]
 file = "mods/refined-construction-sticks.pw.toml"
 hash = "5270bb32b2603f82cbbbf9ec09195f0673f5421fc2ad6aa109947cee8165b359"
 metafile = true
