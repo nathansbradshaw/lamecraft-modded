@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = ".github/workflows/build.yaml"
+hash = "1c078f5c881bb1dacebb58f13c01497ffdb3257179a4f3007f380460429c35a7"
+
+[[files]]
 file = "complementary-unbound.pw.toml"
 hash = "006170836f3180d229a6b95e1b33c060d7afcd0755273669faf78e86f50579ed"
 metafile = true
@@ -2103,7 +2107,7 @@ hash = "6b639bdf78022af725141301e5e0dd988ef5e6a7e541b4407db5ef52415e311c"
 
 [[files]]
 file = "config/relics/loot.yaml"
-hash = "a92f1acd44358a43d2ee092d3a05c62f98ae1b6fcb1b1cfed2001344fe44cf02"
+hash = "70e4115d20e2f6ccbcc4fa06a824020761fcd3b7cb9f79e29bc49ee24f8ba2e6"
 
 [[files]]
 file = "config/relics/relics/amphibian_boot.yaml"
@@ -11558,6 +11562,10 @@ file = "kubejs/data/underground_bunkers/loot_table/chests/underground_bunker/und
 hash = "ea8e9a439950cc33aa4cbccdc6074c0128da2ada16f21bf68e50893debfe98c9"
 
 [[files]]
+file = "kubejs/server_scripts/aether_create.js"
+hash = "e9b4c6b2a0a1261b0821842aa732b38c49813ccca6eb921b768be84669e51281"
+
+[[files]]
 file = "kubejs/server_scripts/artifacts_nerf.js"
 hash = "b9cdba83d350d587fb63fcb6c1de2689529077b6a4ae2a0090b645024b5c8109"
 
@@ -11624,6 +11632,10 @@ hash = "da8efce9d60631979adc3178d664f270450e3d967bcf008dd3db557cd12efa53"
 [[files]]
 file = "kubejs/server_scripts/tooltips.js"
 hash = "0eb4a5b141de877e2ec14527ca161924dfe33e3c100e055bcfb2d06eef7aec23"
+
+[[files]]
+file = "kubejs/startup_scripts/aether_items.js"
+hash = "ae00f3e485ab0c6cd3d2647e896c274234e129206d89d6b52274075ae012c58f"
 
 [[files]]
 file = "kubejs/startup_scripts/items/dice_items.js"
@@ -12580,7 +12592,7 @@ metafile = true
 
 [[files]]
 file = "mods/owo-lib.pw.toml"
-hash = "46831c04077a06df823bcd0f254833a90a9a9ccc78f5069f4b4c27fa301ac0cf"
+hash = "3db5943419e6b6f4e33946266be8797230434573bc68dbe3a77d72f19001ae0c"
 metafile = true
 
 [[files]]
@@ -13055,7 +13067,7 @@ metafile = true
 
 [[files]]
 file = "readme.md"
-hash = "2964666247eee8723c0f3164d5ba9769c7d43e9109185595fd78ec891f4d327f"
+hash = "26c47303ff9d9f236eb84779adafd23d0f06f0882f2f01c5f337b2f2fd754382"
 
 [[files]]
 file = "resourcepacks/ars-nouveau-brass-ified-create-style-anbics.pw.toml"
