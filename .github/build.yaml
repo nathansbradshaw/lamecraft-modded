@@ -1,0 +1,55 @@
+name: Build Modpack
+
+on:
+  push:
+    branches:
+      - main
+  # Also lets you trigger it manually from the GitHub Actions tab
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Install packwiz
+        run: |
+          curl -LO https://github.com/packwiz/packwiz/releases/latest/download/packwiz_linux_amd64.zip
+          unzip packwiz_linux_amd64.zip
+          chmod +x packwiz
+          sudo mv packwiz /usr/local/bin/packwiz
+
+      - name: Export CurseForge zip
+        run: packwiz curseforge export
+
+      - name: Get pack version from pack.toml
+        id: version
+        run: |
+          VERSION=$(grep '^version' pack.toml | head -1 | sed 's/version = "\(.*\)"/\1/')
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+
+      - name: Upload zip as workflow artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: createcraft-${{ steps.version.outputs.version }}
+          path: "*.zip"
+          retention-days: 30
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v${{ steps.version.outputs.version }}
+          name: CreateCraft v${{ steps.version.outputs.version }}
+          body: |
+            ## Install Instructions
+            1. Download `createcraft-*.zip` below
+            2. Open the CurseForge app → Create Custom Profile → Import
+            3. Select the zip and hit Create
+            4. Launch and connect to the server!
+          files: "*.zip"
+          make_latest: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

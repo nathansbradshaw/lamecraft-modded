@@ -13024,6 +13024,10 @@ hash = "15c30a404bc24e1806a780ae83e5a7364d04fac86e2ec448a1a44342935ef0da"
 metafile = true
 
 [[files]]
+file = "readme.md"
+hash = "2964666247eee8723c0f3164d5ba9769c7d43e9109185595fd78ec891f4d327f"
+
+[[files]]
 file = "resourcepacks/ars-nouveau-brass-ified-create-style-anbics.pw.toml"
 hash = "6b18a1b6b0829c6c8309dac3b354c74039c499af9f5ca81ceae01983c25715f9"
 metafile = true
