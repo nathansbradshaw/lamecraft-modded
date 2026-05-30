@@ -1,2 +1,4 @@
 .packwizignore
 pack.zip
+config/
+defaultconfigs/
