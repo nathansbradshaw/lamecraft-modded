@@ -11639,6 +11639,11 @@ hash = "c62eea66c7ebac3cc27e4d566af551fbc403185b5c7dc928e1be708f1e6bde7f"
 metafile = true
 
 [[files]]
+file = "mods/aether.pw.toml"
+hash = "cc3f6e6e8f1838d16e47cce9241e32176279673efb1438ff4451ccffa9579b14"
+metafile = true
+
+[[files]]
 file = "mods/ai-improvements.pw.toml"
 hash = "db026135a8a23b2b660ebbfa8a85d06b26249305b2612bc2fab930e252100890"
 metafile = true
@@ -12114,6 +12119,11 @@ hash = "f849dc24e126d8c4c9890cd91e4093286e6fd7d62a8ad989402eaed7d729651f"
 metafile = true
 
 [[files]]
+file = "mods/dimensional-dungeons.pw.toml"
+hash = "c1ff2d5923e93f1245b512a0dec1075ae427ae732e78fd36fa735bfe6611b7aa"
+metafile = true
+
+[[files]]
 file = "mods/display-delight.pw.toml"
 hash = "038abf0e9aceb1d435429b6dce905e1a8280f43140debb3f45f134078c81bf39"
 metafile = true
@@ -12189,8 +12199,13 @@ hash = "94058325dbe4f6fbad3faeb93b9dc32085ce14e598f2ed493dde870f41d615f5"
 metafile = true
 
 [[files]]
+file = "mods/farmers-cutting-the-aether.pw.toml"
+hash = "42e27827ae1d5ffb06e1cdb3043e5100fe5898af535753cebbf7be9294a8308d"
+metafile = true
+
+[[files]]
 file = "mods/farmers-delight.pw.toml"
-hash = "2451e72d798f4e5787c77dbe226818303122f9ef7f4798e622fc02e4c80264cb"
+hash = "9aab64fbec4cc794817026caf84e7d0dff14ba3892da94aa0e00d23c84560499"
 metafile = true
 
 [[files]]
@@ -12564,6 +12579,11 @@ hash = "e08301069fb769d4cdf8aff75d7533126c80bfdfa682f09ba9ae98040ee725eb"
 metafile = true
 
 [[files]]
+file = "mods/owo-lib.pw.toml"
+hash = "46831c04077a06df823bcd0f254833a90a9a9ccc78f5069f4b4c27fa301ac0cf"
+metafile = true
+
+[[files]]
 file = "mods/packet-fixer.pw.toml"
 hash = "75d42d0a0bcfbcce376fb229f72b75e3a40592fdff5490b997c19ef439a9c832"
 metafile = true
@@ -12866,6 +12886,11 @@ metafile = true
 [[files]]
 file = "mods/theobsidianboat.pw.toml"
 hash = "9980ad99eadf8fe8688c25c8846185cc5fd5bb5ff61516f0f0b932818773574e"
+metafile = true
+
+[[files]]
+file = "mods/tide.pw.toml"
+hash = "58442e3bcd032f8f0ec1efce17e341417f6861d7d8123f76c60d2c19f39389df"
 metafile = true
 
 [[files]]
