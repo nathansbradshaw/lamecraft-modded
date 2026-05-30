@@ -1,6 +1,6 @@
 name = "Create Style for Refined Storage"
 filename = "Create_Style_for_Refined_Storage.zip"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"

@@ -1,6 +1,6 @@
 name = "Create Style Sophisticated Storages"
 filename = "CreateSophStorage.zip"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"

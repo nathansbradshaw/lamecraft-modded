@@ -1,6 +1,6 @@
 name = "Create Lootr"
 filename = "Create LootR Chest.zip"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"

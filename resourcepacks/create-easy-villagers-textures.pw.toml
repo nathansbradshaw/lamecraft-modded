@@ -1,6 +1,6 @@
 name = "Create Easy Villagers Textures"
 filename = "CreateEasyVillager_v6.zip"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"

@@ -1,6 +1,6 @@
 name = "\"Better End Cities\""
 filename = "BetterEndCities-Vanilla-1.21.zip"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"

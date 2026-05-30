@@ -1,6 +1,6 @@
 name = "Ars Nouveau Brass-ified Create-Style - ANBICS"
 filename = "Ars-Nouveau-Brass-ified-Create-Style---ANBICS.zip"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"
