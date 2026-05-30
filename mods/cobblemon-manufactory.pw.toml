@@ -1,0 +1,13 @@
+name = "Create: Cobblemon Manufactory"
+filename = "cobblemon_manufactory-0.3.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "cacd2ba6d5be3be0ffbad75a2e19a609575cc3b4"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8030804
+project-id = 1399042

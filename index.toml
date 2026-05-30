@@ -11670,7 +11670,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "6d3a1c92eee4dd671253c41ec000ae48064a33c45263d6adce5cad466395169d"
+hash = "ea336d25c3e21ef168aec20e1ea470c96949ad29632646ee8e8ab0d74b4bbfc9"
 metafile = true
 
 [[files]]
@@ -11769,6 +11769,11 @@ hash = "cf914684c4151076b726116a66f7bc81a6116655551bcce70a9e64e34e5aa308"
 metafile = true
 
 [[files]]
+file = "mods/bosses-of-mass-destruction-forge.pw.toml"
+hash = "72b8637f99298483016f7f7acc075462a88bbd60ef1b8b62a6c5eaf533bb8a82"
+metafile = true
+
+[[files]]
 file = "mods/bridging-mod.pw.toml"
 hash = "e5c9649e2e622248382ac05979512e14e652b32fe31e592db3b4aef9fc2a9488"
 metafile = true
@@ -11786,6 +11791,11 @@ metafile = true
 [[files]]
 file = "mods/camol.pw.toml"
 hash = "7d7b50bca4c32bf627530df6c9990112dba2dd2afe96463d7a4db8b6c7447be9"
+metafile = true
+
+[[files]]
+file = "mods/cerbons-api.pw.toml"
+hash = "1cb3db95dbf424de74a4572994d7b32fc8560dc31e0495d10825f195b2103462"
 metafile = true
 
 [[files]]
@@ -11815,12 +11825,27 @@ metafile = true
 
 [[files]]
 file = "mods/cloth-config.pw.toml"
-hash = "22286fa216349c0767808903a0a38662857d2adee54950a18cbf26c167a06029"
+hash = "75181b55e0407d1fca1e2f346c6501f919f5109545990ddfb66db9cd1b771f8a"
 metafile = true
 
 [[files]]
 file = "mods/coastal-waves.pw.toml"
 hash = "63b5fa8e96db156a0bd2b582fff3172fe5818832edee4cefb358f00a7635c206"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-manufactory.pw.toml"
+hash = "615cd361fd8d5efdd56219c7fbeceb167982233dae528ece937b3d04845d5248"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-ultra-wormholes.pw.toml"
+hash = "cd0122d15139fec456029c3b54b9a2c0bce5daaae13da1d42cfeaf12821e7262"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon.pw.toml"
+hash = "bd0dd7ceb00c37cfaa945dfba23b5b2406e12be20709df8d9f82ba12a5a3a2be"
 metafile = true
 
 [[files]]
@@ -12285,7 +12310,7 @@ metafile = true
 
 [[files]]
 file = "mods/geckolib.pw.toml"
-hash = "e448ed8448354d972dcd3ef7c46833e58de16147fe947a969538bf80efad6de9"
+hash = "0521ed2becdf2b460511c92e80e2702a4b6e540c85c99fb571844e1c7c505724"
 metafile = true
 
 [[files]]
@@ -12931,6 +12956,11 @@ metafile = true
 [[files]]
 file = "mods/wall-jump-txf.pw.toml"
 hash = "941b93a4daf9a1e82f533707f27484559a78d708ff4ddd8dda3fcbed5cdd1bc0"
+metafile = true
+
+[[files]]
+file = "mods/wild-battle-api.pw.toml"
+hash = "a398ee5619d5359201803b329a2fede00e9383b62407de728aec237873a010c3"
 metafile = true
 
 [[files]]
