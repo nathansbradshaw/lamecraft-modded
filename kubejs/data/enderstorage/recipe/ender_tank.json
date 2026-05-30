@@ -1,0 +1,29 @@
+{
+  "type": "enderstorage:create_recipe",
+  "key": {
+    "B": {
+      "item": "minecraft:blaze_rod"
+    },
+    "C": {
+      "item": "minecraft:cauldron"
+    },
+    "O": {
+      "tag": "c:obsidians"
+    },
+    "P": {
+      "item": "createcasing:chorium_ingot"
+    },
+    "W": {
+      "tag": "c:wools"
+    }
+  },
+  "pattern": [
+    "BWB",
+    "OCO",
+    "BPB"
+  ],
+  "result": {
+    "count": 1,
+    "id": "enderstorage:ender_tank"
+  }
+}

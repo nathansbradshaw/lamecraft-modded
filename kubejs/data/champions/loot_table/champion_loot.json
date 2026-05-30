@@ -1,0 +1,161 @@
+{
+  "pools": [
+    {
+      "name": "tier_1_basic",
+      "rolls": { "type": "minecraft:uniform", "min": 3, "max": 10 },
+      "conditions": [
+        {
+          "condition": "champions:champion_properties",
+          "entity": "this",
+          "tier": { "min": 1, "max": 5 }
+        }
+      ],
+      "entries": [
+        { "type": "minecraft:item", "name": "minecraft:iron_ingot", "weight": 25 },
+        { "type": "minecraft:item", "name": "create:zinc_ingot", "weight": 20 },
+        { "type": "minecraft:item", "name": "refinedstorage:silicon", "weight": 15 },
+        { 
+          "type": "minecraft:item", 
+          "name": "create:experience_nugget", 
+          "weight": 40,
+          "functions": [{ "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 1, "max": 1 } }]
+        }
+      ]
+    },
+    {
+      "name": "tier_2_advanced",
+      "rolls": { "type": "minecraft:uniform", "min": 8, "max": 18 },
+      "conditions": [
+        {
+          "condition": "champions:champion_properties",
+          "entity": "this",
+          "tier": { "min": 2, "max": 5 }
+        }
+      ],
+      "entries": [
+        { "type": "minecraft:item", "name": "minecraft:iron_ingot", "weight": 20 },
+        { "type": "minecraft:item", "name": "create:zinc_ingot", "weight": 15 },
+        { "type": "minecraft:item", "name": "create:brass_ingot", "weight": 5 },
+        { 
+          "type": "minecraft:item", 
+          "name": "create:experience_nugget", 
+          "weight": 35,
+          "functions": [{ "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 1, "max": 2 } }]
+        }
+      ]
+    },
+    {
+      "name": "tier_3_elite",
+      "rolls": { "type": "minecraft:uniform", "min": 12, "max": 25 },
+      "conditions": [
+        {
+          "condition": "champions:champion_properties",
+          "entity": "this",
+          "tier": { "min": 3, "max": 5 }
+        }
+      ],
+      "entries": [
+        { "type": "minecraft:item", "name": "minecraft:gold_ingot", "weight": 20 },
+        { "type": "minecraft:item", "name": "create:brass_ingot", "weight": 15 },
+        { "type": "minecraft:item", "name": "ars_nouveau:source_gem", "weight": 10 },
+        { "type": "minecraft:item", "name": "minecraft:netherite_scrap", "weight": 12 },
+        { "type": "minecraft:item", "name": "minecraft:golden_apple", "weight": 5 },
+        { 
+          "type": "minecraft:item", 
+          "name": "create:experience_nugget", 
+          "weight": 30,
+          "functions": [{ "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 2, "max": 4 } }]
+        }
+      ]
+    },
+    {
+      "name": "tier_4_ultra",
+      "rolls": { "type": "minecraft:uniform", "min": 18, "max": 35 },
+      "conditions": [
+        {
+          "condition": "champions:champion_properties",
+          "entity": "this",
+          "tier": { "min": 4, "max": 5 }
+        }
+      ],
+      "entries": [
+        { "type": "minecraft:item", "name": "minecraft:diamond", "weight": 15 },
+        { "type": "minecraft:item", "name": "minecraft:echo_shard", "weight": 5 },
+        { "type": "minecraft:item", "name": "minecraft:netherite_scrap", "weight": 15 },
+        { "type": "minecraft:item", "name": "minecraft:netherite_ingot", "weight": 5 },
+        { "type": "minecraft:item", "name": "create:precision_mechanism", "weight": 7 },
+        { 
+          "type": "minecraft:item", 
+          "name": "create:experience_nugget", 
+          "weight": 25,
+          "functions": [{ "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 4, "max": 8 } }]
+        }
+      ]
+    },
+    {
+      "name": "tier_5_legendary",
+      "rolls": { "type": "minecraft:uniform", "min": 25, "max": 50 },
+      "conditions": [
+        {
+          "condition": "champions:champion_properties",
+          "entity": "this",
+          "tier": { "min": 5, "max": 5 }
+        }
+      ],
+      "entries": [
+        { "type": "minecraft:item", "name": "minecraft:netherite_ingot", "weight": 15 },
+        { "type": "minecraft:item", "name": "minecraft:netherite_scrap", "weight": 20 },
+        { "type": "minecraft:item", "name": "minecraft:heavy_core", "weight": 1 },
+        { "type": "minecraft:item", "name": "minecraft:enchanted_golden_apple", "weight": 4 },
+        { "type": "minecraft:item", "name": "minecraft:totem_of_undying", "weight": 8 },
+        { "type": "minecraft:item", "name": "relics:relic_experience_bottle", "weight": 10 },
+        { 
+          "type": "minecraft:item", 
+          "name": "create:experience_nugget", 
+          "weight": 20,
+          "functions": [{ "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 8, "max": 16 } }]
+        }
+      ]
+    },
+    {
+      "name": "guaranteed_one_book",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "conditions": [{ "condition": "champions:champion_properties", "entity": "this", "tier": { "min": 1, "max": 1 } }],
+          "functions": [{ "function": "minecraft:enchant_randomly" }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "conditions": [{ "condition": "champions:champion_properties", "entity": "this", "tier": { "min": 2, "max": 2 } }],
+          "functions": [{ "function": "minecraft:enchant_randomly" }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "conditions": [{ "condition": "champions:champion_properties", "entity": "this", "tier": { "min": 3, "max": 3 } }],
+          "functions": [{ "function": "minecraft:enchant_randomly" }, { "function": "minecraft:enchant_randomly" }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "conditions": [{ "condition": "champions:champion_properties", "entity": "this", "tier": { "min": 4, "max": 4 } }],
+          "functions": [{ "function": "minecraft:enchant_randomly" }, { "function": "minecraft:enchant_randomly" }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "conditions": [{ "condition": "champions:champion_properties", "entity": "this", "tier": { "min": 5, "max": 5 } }],
+          "functions": [
+            { "function": "minecraft:enchant_randomly" },
+            { "function": "minecraft:enchant_randomly" },
+            { "function": "minecraft:enchant_randomly" }
+          ]
+        }
+      ]
+    }
+  ]
+}

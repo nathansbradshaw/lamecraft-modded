@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "create:precision_mechanism"
+    },
+    "B": {
+      "item": "create:brass_casing"
+    }
+  },
+  "result": {
+    "id": "createages:brass_machine",
+    "count": 1
+  }
+}

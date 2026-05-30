@@ -1,0 +1,2 @@
+#Whether Operator status is required for using the Resizer
+operatorRequired = false

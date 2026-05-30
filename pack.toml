@@ -1,0 +1,13 @@
+name = "Chosen's Create Integrated"
+author = "ChosenArchitect"
+version = "1.4.3"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "5eec2243a2efcff48bf5015694856814e9d286a2ddfaaca3d64407599437f8a2"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.219"

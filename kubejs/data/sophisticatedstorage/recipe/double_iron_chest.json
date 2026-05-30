@@ -1,0 +1,30 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedstorage:iron_chest"
+    }
+  ],
+  "type": "sophisticatedstorage:double_chest_tier_upgrade",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "create:andesite_alloy_block"
+    },
+    "I": {
+      "item": "create:andesite_alloy"
+    },
+    "S": {
+      "item": "sophisticatedstorage:chest"
+    }
+  },
+  "pattern": [
+    "III",
+    "ISI",
+    "IBI"
+  ],
+  "result": {
+    "count": 1,
+    "id": "sophisticatedstorage:iron_chest"
+  }
+}

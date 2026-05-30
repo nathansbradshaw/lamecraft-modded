@@ -1,0 +1,13 @@
+name = "\"Better End Cities\""
+filename = "BetterEndCities-Vanilla-1.21.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "63957c50bf698d6be430122816b9972d3cb14dc9"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5555878
+project-id = 858850

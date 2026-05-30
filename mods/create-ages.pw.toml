@@ -1,0 +1,13 @@
+name = "Create: Ages"
+filename = "createages-0.4.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c62de51428d98a50ab1c836ba6fa11226df44b57"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7407211
+project-id = 1274414

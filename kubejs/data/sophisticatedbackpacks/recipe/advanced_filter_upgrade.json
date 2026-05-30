@@ -1,0 +1,29 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedbackpacks:advanced_filter_upgrade"
+    }
+  ],
+  "type": "sophisticatedcore:upgrade_next_tier",
+  "category": "misc",
+  "key": {
+    "G": {
+      "item": "create:brass_ingot"
+    },
+    "P": {
+      "item": "sophisticatedbackpacks:filter_upgrade"
+    },
+    "R": {
+      "item": "create:electron_tube"
+    }
+  },
+  "pattern": [
+    "GPG",
+    "RRR"
+  ],
+  "result": {
+    "count": 1,
+    "id": "sophisticatedbackpacks:advanced_filter_upgrade"
+  }
+}

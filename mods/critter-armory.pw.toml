@@ -1,0 +1,13 @@
+name = "Critter Armory"
+filename = "critterarmory-1.21.1-0.6.3-neoforge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c5ed08da0623aed4a7d553610facef4cc0a37eb7"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6668332
+project-id = 1198794

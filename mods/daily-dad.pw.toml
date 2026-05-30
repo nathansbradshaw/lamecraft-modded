@@ -1,0 +1,13 @@
+name = "Daily Dad"
+filename = "DailyDad-neoforge-1.21.1-2.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6a58f835f1d5204789143d02573d820876dfdbef"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6070135
+project-id = 559851

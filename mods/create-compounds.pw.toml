@@ -1,0 +1,13 @@
+name = "Create: Compounds"
+filename = "createcompounds-1.21.1-NeoForge-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "90feaeed4b8cc8ce25017159c4ce63de7fa77125"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6555967
+project-id = 1029004

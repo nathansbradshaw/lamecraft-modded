@@ -1,0 +1,36 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedstorage:advanced_magnet_upgrade"
+    }
+  ],
+  "type": "sophisticatedcore:upgrade_next_tier",
+  "category": "misc",
+  "key": {
+    "E": {
+      "tag": "c:ender_pearls"
+    },
+    "I": {
+      "item": "create:andesite_alloy"
+    },
+    "L": {
+      "tag": "c:gems/lapis"
+    },
+    "P": {
+      "item": "sophisticatedstorage:advanced_pickup_upgrade"
+    },
+    "R": {
+      "item": "create:electron_tube"
+    }
+  },
+  "pattern": [
+    "EIE",
+    "IPI",
+    "R L"
+  ],
+  "result": {
+    "count": 1,
+    "id": "sophisticatedstorage:advanced_magnet_upgrade"
+  }
+}

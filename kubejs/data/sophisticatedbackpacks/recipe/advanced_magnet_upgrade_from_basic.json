@@ -1,0 +1,33 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedbackpacks:advanced_magnet_upgrade"
+    }
+  ],
+  "type": "sophisticatedcore:upgrade_next_tier",
+  "category": "misc",
+  "key": {
+    "D": {
+      "tag": "c:gems/diamond"
+    },
+    "G": {
+      "item": "create:brass_ingot"
+    },
+    "M": {
+      "item": "sophisticatedbackpacks:magnet_upgrade"
+    },
+    "R": {
+      "item": "create:electron_tube"
+    }
+  },
+  "pattern": [
+    " D ",
+    "GMG",
+    "RRR"
+  ],
+  "result": {
+    "count": 1,
+    "id": "sophisticatedbackpacks:advanced_magnet_upgrade"
+  }
+}

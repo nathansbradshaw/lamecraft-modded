@@ -1,0 +1,60 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:brass_casing"
+  },
+  "loops": 4,
+  "results": [
+    {
+      "chance": 100.0,
+      "id": "createages:brass_machine"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create:brass_casing"
+        }
+      ],
+      "results": [
+        {
+          "id": "create:brass_casing"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:andesite_casing"
+        },
+        {
+          "item": "create:precision_mechanism"
+        }
+      ],
+      "results": [
+        {
+          "id": "create:brass_casing"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create:brass_casing"
+        }
+      ],
+      "results": [
+        {
+          "id": "create:brass_casing"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "create:brass_casing"
+  }
+}

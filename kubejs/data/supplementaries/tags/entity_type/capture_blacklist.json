@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    {"id":"alexsmobs:centipede","required":false},
+    {"id":"alexsmobs:bone_serpent","required":false},
+    {"id":"alexsmobs:void_worm","required":false},
+    {"id":"alexsmobs:anaconda","required":false},
+    {"id":"alexsmobs:murmur","required":false},
+    {"id":"#c:capturing_not_supported","required":false},
+    {"id":"minecraft:ender_dragon","required":false},
+    {"id":"ars_nouveau:wilden_boss","required":false},
+    {"id":"minecraft:wither","required":false},
+    {"id":"minecraft:warden","required":false},
+    {"id":"create:carriage_contraption","required":false},
+    {"id":"create:contraption","required":false},
+    {"id":"lootr:item_frame","required":false},
+    {"id":"lootr:lootr_minecart","required":false}
+  ]
+}
+

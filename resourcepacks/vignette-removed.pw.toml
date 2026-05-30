@@ -1,0 +1,13 @@
+name = "Vignette Removed"
+filename = "No Vignette 1.21.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "289b1084f45fdaac66f3cf1fb015093cff3fc1d0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5425388
+project-id = 403272

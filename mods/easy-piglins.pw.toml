@@ -1,0 +1,13 @@
+name = "Easy Piglins"
+filename = "easy-piglins-neoforge-1.21.1-1.0.14.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7402adc6eef5f42dba1960247ef07f1bdf6666e4"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6137967
+project-id = 419372

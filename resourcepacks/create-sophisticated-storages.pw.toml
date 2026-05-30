@@ -1,0 +1,13 @@
+name = "Create Style Sophisticated Storages"
+filename = "CreateSophStorage.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b31741fa1f8dc44294390ef22577ef17517fe406"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6628885
+project-id = 1282587

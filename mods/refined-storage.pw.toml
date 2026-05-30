@@ -1,0 +1,13 @@
+name = "Refined Storage"
+filename = "refinedstorage-neoforge-2.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4a7f181268affbb93dedc9c863653af8860ae84a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7610477
+project-id = 243076

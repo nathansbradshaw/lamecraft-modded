@@ -1,0 +1,109 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "createcasing:chorium_ingot"
+  },
+  "loops": 5,
+  "results": [
+    {
+      "item": {
+        "id": "create_deep_dark:echo_ingot"
+      }
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "createcasing:chorium_ingot"
+        },
+        {
+          "type": "fluid_stack",
+          "amount": 250,
+          "fluid": "minecraft:lava"
+        }
+      ],
+      "results": [
+        {
+          "item": {
+            "id": "createcasing:chorium_ingot"
+          }
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "createcasing:chorium_ingot"
+        }
+      ],
+      "results": [
+        {
+          "item": {
+            "id": "createcasing:chorium_ingot"
+          }
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "createcasing:chorium_ingot"
+        },
+        {
+          "type": "fluid_stack",
+          "amount": 50,
+          "fluid": "create_deep_dark:molten_echo"
+        }
+      ],
+      "results": [
+        {
+          "item": {
+            "id": "createcasing:chorium_ingot"
+          }
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createcasing:chorium_ingot"
+        },
+        {
+          "item": "minecraft:blaze_powder"
+        }
+      ],
+      "results": [
+        {
+          "item": {
+            "id": "createcasing:chorium_ingot"
+          }
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "createcasing:chorium_ingot"
+        }
+      ],
+      "results": [
+        {
+          "item": {
+            "id": "createcasing:chorium_ingot"
+          }
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "item": {
+      "id": "createcasing:chorium_ingot"
+    }
+  }
+}

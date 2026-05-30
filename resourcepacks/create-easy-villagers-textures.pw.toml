@@ -1,0 +1,13 @@
+name = "Create Easy Villagers Textures"
+filename = "CreateEasyVillager_v6.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "aa7887c8ac4937b8601eac1c1f45962d39d348e7"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6256237
+project-id = 1084898

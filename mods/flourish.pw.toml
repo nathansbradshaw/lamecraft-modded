@@ -1,0 +1,13 @@
+name = "Flourish"
+filename = "flourish-neoforge-21.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d2ea75ab788cf334cbd76e563edbdb6ab2cb2cf6"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6563663
+project-id = 332831

@@ -1,0 +1,79 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "createages:andesite_mechanism"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "count": 2,
+      "id": "create:precision_mechanism"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:incomplete_precision_mechanism"
+        },
+        {
+          "item": "create:brass_ingot"
+        }
+      ],
+      "results": [
+        {
+          "id": "create:incomplete_precision_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:incomplete_precision_mechanism"
+        },
+        {
+          "item": "create:electron_tube"
+        }
+      ],
+      "results": [
+        {
+          "id": "create:incomplete_precision_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:incomplete_precision_mechanism"
+        },
+        {
+          "tag": "c:plates/gold"
+        }
+      ],
+      "results": [
+        {
+          "id": "create:incomplete_precision_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create:incomplete_precision_mechanism"
+        }
+      ],
+      "results": [
+        {
+          "id": "create:incomplete_precision_mechanism"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "create:incomplete_precision_mechanism"
+  }
+}

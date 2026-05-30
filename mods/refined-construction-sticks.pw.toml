@@ -1,0 +1,13 @@
+name = "Refined Construction Sticks"
+filename = "refinedsticks-1.21.1-1.2.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4d37437366249fb0eb8dbbf617ea4ecea523625f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7689739
+project-id = 1460013

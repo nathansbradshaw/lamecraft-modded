@@ -1,0 +1,13 @@
+name = "Create: Upsizing"
+filename = "upsizing-1.2.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d08b3f879f06906de46fbb7ccfce55e0ae060960"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7021832
+project-id = 1315787
