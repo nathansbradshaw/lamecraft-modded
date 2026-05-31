@@ -1,11 +1,11 @@
 name = "CreateCraft"
-version = "2.0.0"
+version = "2.1.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "17d48b32cc8a3bfdbd2ff1e88ef20f9a6c6b6e1b76264bebf212065c411b4bd0"
+hash = "36c88a3d853e527eb393b90dd862bc14a8541e98ae3809bf4fd6a1f7ad150203"
 
 [versions]
 minecraft = "1.21.1"
