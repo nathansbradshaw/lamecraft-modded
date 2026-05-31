@@ -1,0 +1,13 @@
+name = "Cobblemon: Weapons, Armors & Tools"
+filename = "cobblemon_additions-neoforge-1.2.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "083b0abdcf4f8985a179b63fda72461fcf4b8331"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7422192
+project-id = 1267162

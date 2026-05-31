@@ -1,0 +1,13 @@
+name = "Chunk Library"
+filename = "chunklibrary-1.21.1-1.2.0a.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "cfd7a1bbe6e97f71e38ccd96c00163bd6b05ec82"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6531653
+project-id = 1242855

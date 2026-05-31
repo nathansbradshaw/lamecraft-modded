@@ -1,0 +1,13 @@
+name = "Unclaimed Chunks Regenerate"
+filename = "unclaimedchunksregenerate-1.21.1-1.2.0a.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e590c9764d1e8c637464aa131aff837ace0dc806"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6531655
+project-id = 1242868
