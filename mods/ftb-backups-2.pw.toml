@@ -1,6 +1,6 @@
 name = "FTB Backups 2"
 filename = "ftbbackups2-neoforge-1.21-1.0.28.jar"
-side = "both"
+side = "server"
 
 [download]
 hash-format = "sha1"
