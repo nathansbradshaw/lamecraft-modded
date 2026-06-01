@@ -10313,6 +10313,11 @@ hash = "16867de3e52d4f2115c1cad51cdf9d717032d1c750672ced8f2dc85a1a61e271"
 metafile = true
 
 [[files]]
+file = "mods/stylecolonies.pw.toml"
+hash = "6f7259f3f66eed62b0d6140d0b65745d28539fad842e2bd187195617835ea3aa"
+metafile = true
+
+[[files]]
 file = "mods/subtle-effects.pw.toml"
 hash = "c77f93633afdaf71d6d3db23be112158cdfbd1fa7e11cabb8b0402aeb3fdd8d1"
 metafile = true
