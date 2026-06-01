@@ -9284,7 +9284,7 @@ metafile = true
 
 [[files]]
 file = "mods/cosmetic-armor-reworked.pw.toml"
-hash = "00b8f86a954b71e47b4bd3d313c647bcbec18fe6ccb8c56d5269c0963e293ca3"
+hash = "b65ee01fec17228645121952de6dec75053b0b4c59a8c8036d6fa7829819f3f9"
 metafile = true
 
 [[files]]
@@ -10444,7 +10444,7 @@ metafile = true
 
 [[files]]
 file = "mods/wall-jump-txf.pw.toml"
-hash = "0edb2f8f1e057b03e4d7cc060e7287f0e40273d4bbe424c041d93ecefdb7245d"
+hash = "941b93a4daf9a1e82f533707f27484559a78d708ff4ddd8dda3fcbed5cdd1bc0"
 metafile = true
 
 [[files]]

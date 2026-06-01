@@ -1,6 +1,6 @@
 name = "Wall-Jump TXF"
 filename = "walljump-1.21.1-1.3.5-neoforge.jar"
-side = "client"
+side = "both"
 
 [download]
 hash-format = "sha1"
