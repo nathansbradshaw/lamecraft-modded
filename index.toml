@@ -8979,7 +8979,7 @@ hash = "d99c704b39c36c18f4e1d02aa93de8069eab5403df5e67e7b4816bd628663a90"
 
 [[files]]
 file = "mods/advancement-frames.pw.toml"
-hash = "d862d580e3a1ec96546ba69c326c23fd9cc278914f843f88f18a02ec13824255"
+hash = "c62eea66c7ebac3cc27e4d566af551fbc403185b5c7dc928e1be708f1e6bde7f"
 metafile = true
 
 [[files]]
@@ -9129,7 +9129,7 @@ metafile = true
 
 [[files]]
 file = "mods/building-gadgets.pw.toml"
-hash = "3210fe8ba5bddc83196378f8283d99a2a77ef1d4795bb9535dc39f5695151495"
+hash = "88908286eebea979713b5626891f634317fcc4c5a5bd4ec0c9444a33863a4518"
 metafile = true
 
 [[files]]
@@ -9799,7 +9799,7 @@ metafile = true
 
 [[files]]
 file = "mods/immersive-paintings.pw.toml"
-hash = "79d798176f806dce256c8caf682e424babe159af3df94d152a32240e510a43ba"
+hash = "d480787d9c86b5abe27284195ace63101ac1ccea7f2cb39649b4dcd172932e7e"
 metafile = true
 
 [[files]]
@@ -9814,7 +9814,7 @@ metafile = true
 
 [[files]]
 file = "mods/inventory-tweaks-refoxed.pw.toml"
-hash = "445b323ba9a34faa2ad10207f41aac9da7eeac8e13cd66c771ba026e8bccaaf1"
+hash = "1d3b922c0d1a43fa497faf27827bfa9f9f3841dfba51d8684435d58c1141fe93"
 metafile = true
 
 [[files]]
@@ -10334,7 +10334,7 @@ metafile = true
 
 [[files]]
 file = "mods/tempad.pw.toml"
-hash = "ca7ee9c601fbc0492c0894258dbfa1a889b1f40877a9c40df2bd30904c3366ac"
+hash = "1c7818890dda9f6d9eeba4642b83a6cbd5c7913acc2738b1c5ee092ee4aefe2e"
 metafile = true
 
 [[files]]

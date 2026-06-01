@@ -1,6 +1,6 @@
 name = "Immersive Paintings [Fabric/Forge]"
 filename = "immersive_paintings-neoforge-1.21.1-0.7.6.jar"
-side = "client"
+side = "both"
 
 [download]
 hash-format = "sha1"
