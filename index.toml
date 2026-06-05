@@ -9348,6 +9348,11 @@ hash = "73249ff37dd30a44acefdff237891c84708f8f3f795e715b92e9eb25b6c226c6"
 metafile = true
 
 [[files]]
+file = "mods/create-big-cannons.pw.toml"
+hash = "96cf97e70af78acba5f72552f481701810c3e2b1c30a928279ce93a7e8bcc242"
+metafile = true
+
+[[files]]
 file = "mods/create-blocks-bogies.pw.toml"
 hash = "bd11a6432f2e077e0c33ac8bf8b5f0da76214f0d89954d0fe1451c68ac1a2cdd"
 metafile = true
@@ -9390,6 +9395,11 @@ metafile = true
 [[files]]
 file = "mods/create-design-n-decor.pw.toml"
 hash = "9bb04e0450d54cdaaf10120438a5a1139c84fbcf51f9beca3ebb90c9c01eec0a"
+metafile = true
+
+[[files]]
+file = "mods/create-diesel-generators.pw.toml"
+hash = "8fb57bc618f50cf03f299a8f36cce5b0805765a3033f46e3b0420ca3a8585856"
 metafile = true
 
 [[files]]
@@ -9485,6 +9495,11 @@ metafile = true
 [[files]]
 file = "mods/create-towed.pw.toml"
 hash = "f3c7ce5ee7fa64eaf447f97da1bbf061bd04825bd6f76904df366a5700a06050"
+metafile = true
+
+[[files]]
+file = "mods/create-tracks.pw.toml"
+hash = "6652073f815bed51608dc9d6a9e769ec783a131526054b35e8de6f47c8745fa2"
 metafile = true
 
 [[files]]
@@ -9983,6 +9998,11 @@ hash = "057044d2179d9e10b616ef8fa4cc870ad350842fc5c325ce0b3766160852cd13"
 metafile = true
 
 [[files]]
+file = "mods/movable-tracks.pw.toml"
+hash = "ec12b68cdd42d0a1cecab100e33ccfdd21734d85cb66b02a83ded620a6e5cd92"
+metafile = true
+
+[[files]]
 file = "mods/multi-piston.pw.toml"
 hash = "bc9449306cb2c32f16347779291d68e5fba67f85d7aca04b4b9cc1c033ec4083"
 metafile = true
@@ -10180,6 +10200,11 @@ metafile = true
 [[files]]
 file = "mods/rightclickharvest.pw.toml"
 hash = "9f0a36fc8540ac5d4b9fc3944b5dd4c0e097d0a189f84a95efc5f77cfd891c1f"
+metafile = true
+
+[[files]]
+file = "mods/ritchies-projectile-library.pw.toml"
+hash = "c62b51a8248d15e3cb63880ac123a92dd6a67973a1eafc4c4cb09f3f74481f78"
 metafile = true
 
 [[files]]
